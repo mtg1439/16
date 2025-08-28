@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>16</h1>
+    <div id="game-container">
+        <div id="instructions">
+            <h2>Instructions:</h2>
+            <p>Welcome to 16! Your objective is to turn all squares on the board black.</p>
+            <p>Click the 'Begin' button to start the game.</p>
+            <p>When you click a square, it will toggle its color (white to black, or black to white). Additionally, the square on the mirror opposite end of the grid will also toggle its color.</p>
+            <p>Beware! Each level introduces a "mystery square". This square, when clicked, will not only toggle itself and its mirror opposite, but also a third unique square on the grid. The mystery squares accumulate with each level.</p>
+            <p>Complete all 10 levels to win!</p>
+        </div>
+        <button id="begin-button">Begin</button>
+        <div id="game-board"></div>
+        <div id="level-display">Level: 1</div>
+        <div id="click-display">Clicks: 0</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
