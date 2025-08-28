@@ -1,2 +1,5 @@
 # 16
-game to get 16
+
+A game to get to 16.
+
+To play, run 'index.html'.
